@@ -11,8 +11,8 @@ opcion = st.selectbox(
 
 # Mostrar el tablero correspondiente según la opción seleccionada
 if opcion == 'Tablero 1':
-    st.components.v1.iframe("https://app.fabric.microsoft.com/view?r=eyJrIjoiOWMxZWIyZmUtYTI5NS00MjJjLWI0N2UtMzZlOWIyMjZkMjc5IiwidCI6Ijk2NGJhZWMxLWQyM2ItNGQyZC1iZmE5LTEzNDQwNTRlYTY1NCIsImMiOjR9", height=600)
+    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiOWNlODdmMmYtNGM3Ny00ZmM3LWIyNzQtM2JjNDc2NjIzMzZkIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
 elif opcion == 'Tablero 2':
-    st.components.v1.iframe("https://app.fabric.microsoft.com/view?r=eyJrIjoiZDY0YWEwNGUtYzgxYS00YTg5LWI1MWUtMzRmMDQzODVmYjI1IiwidCI6Ijk2NGJhZWMxLWQyM2ItNGQyZC1iZmE5LTEzNDQwNTRlYTY1NCIsImMiOjR9", height=600)
+    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMTI4MDhmMzAtZjJjYy00YzgzLWFkODAtYjA5MDYxZjllYjEzIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
 elif opcion == 'Tablero 3':
-    st.components.v1.iframe("https://app.fabric.microsoft.com/view?r=eyJrIjoiZDY0YWEwNGUtYzgxYS00YTg5LWI1MWUtMzRmMDQzODVmYjI1IiwidCI6Ijk2NGJhZWMxLWQyM2ItNGQyZC1iZmE5LTEzNDQwNTRlYTY1NCIsImMiOjR9", height=600)
+    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMDY5YjhlOGYtMzhkMC00ZWZlLTllYmMtNDFhZTg5ODU3NTFmIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
