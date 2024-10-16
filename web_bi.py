@@ -1,5 +1,6 @@
 import streamlit as st
 
+# Ocultar el menú de GitHub y otras opciones
 hide_menu_style = """
     <style>
     #MainMenu {visibility: hidden;}
@@ -7,14 +8,15 @@ hide_menu_style = """
     header {visibility: hidden;}
     </style>
     """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
+# Ocultar el pie de página "Hosted with Streamlit"
 hide_footer_style = """
     <style>
     footer {visibility: hidden;}
     </style>
     """
 st.markdown(hide_footer_style, unsafe_allow_html=True)
-st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 # Título de la aplicación
