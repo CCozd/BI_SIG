@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "blue"
+backgroundColor = "white"
+secondaryBackgroundColor = "gray"
+textColor = "black"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[ui]
+hideMenu = true
