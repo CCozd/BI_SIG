@@ -3,6 +3,9 @@ st.set_page_config(menu_items={
     'Get help': None,
     'Report a bug': None,
     'About': None
+})
+
+
 # Título de la aplicación
 st.title('Filtro de Tableros Power BI')
 
