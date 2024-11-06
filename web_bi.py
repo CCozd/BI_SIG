@@ -19,7 +19,7 @@ hide_footer_style = """
 st.markdown(hide_footer_style, unsafe_allow_html=True)
 
 
-# Título de la aplicación
+st.title('TABLEROS ANALÍTICOS DE SISTEMAS INTEGRADOS DE GESTION')
 st.title('COMITEE_ARRIVAL')
 st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMTk2YjU2NDktYmViZi00N2VhLTgyYzQtZDc2Yzg5NTI1NWU0IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
 st.title('CLAIMS_PROJECT')
