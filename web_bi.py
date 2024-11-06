@@ -25,13 +25,13 @@ st.title('Filtro de Tableros Power BI')
 # Opciones de filtro
 opcion = st.selectbox(
     'Selecciona un tablero para visualizar:',
-    ('Comitee_Arrival', 'SIG_ARRIBO', 'PITAHAYA')
+    ('COMITEE_ARRIVAL', 'CLAIMS_PROJECT', 'DESTINATION_PROJECT')
 )
 
 # Mostrar el tablero correspondiente según la opción seleccionada
-if opcion == 'Comitee_Arrival':
+if opcion == 'COMITEE_ARRIVAL':
+    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMTk2YjU2NDktYmViZi00N2VhLTgyYzQtZDc2Yzg5NTI1NWU0IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
+elif opcion == 'CLAIMS_PROJECT':
+    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiZjFkOGI4ZTUtZjdlMC00MWQ5LTg1NDItMWI0YjgwYjk4ZTg1IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
+elif opcion == 'DESTINATION_PROJECT':
     st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiOWNlODdmMmYtNGM3Ny00ZmM3LWIyNzQtM2JjNDc2NjIzMzZkIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
-elif opcion == 'SIG_ARRIBO':
-    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMTI4MDhmMzAtZjJjYy00YzgzLWFkODAtYjA5MDYxZjllYjEzIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
-elif opcion == 'PITAHAYA':
-    st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMDY5YjhlOGYtMzhkMC00ZWZlLTllYmMtNDFhZTg5ODU3NTFmIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=600)
