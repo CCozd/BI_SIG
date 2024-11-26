@@ -30,4 +30,4 @@ st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiNGYxODRjZGMtOThm
 st.title('ORIGEN_CHAO')
 st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiODg2MzljYmYtMmYxMC00NTQ1LThmMTYtZWNhNDIyYWMzMmE1IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
 st.title('ORIGEN_PIURA')
-st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiMjg2ZDFjMjktNDFiZS00NDhlLTgxYTYtNjZlN2RhN2MyOTYxIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
+st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiZmY4NDlkM2YtYmMxZS00Njk4LTlkYTQtYTMxYTZjZGE0Nzk2IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
