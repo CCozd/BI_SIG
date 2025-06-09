@@ -30,6 +30,6 @@ st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiYTI0NDc5NmYtZWQz
 st.title('ORIGEN CHAO')
 st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiODg2MzljYmYtMmYxMC00NTQ1LThmMTYtZWNhNDIyYWMzMmE1IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
 st.title('ORIGEN PIURA')
-st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiYWE2MWMxNjYtYjAyOS00MmY5LTgyNGItY2U0YzI4NTM2YTlkIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
+st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiZjU3MzEzNGYtNTU5YS00NjIxLTg5NzUtYWMyODk2N2JjNzM0IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
 st.title('ONE PAGE')
 st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiZmY4NDlkM2YtYmMxZS00Njk4LTlkYTQtYTMxYTZjZGE0Nzk2IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
