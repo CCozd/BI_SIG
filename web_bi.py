@@ -18,6 +18,8 @@ hide_footer_style = """
     """
 st.markdown(hide_footer_style, unsafe_allow_html=True)
 
+st.title('PROYECTO ARRIBOS')
+st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiZDMxMWUxNmEtMzAzYy00NzE4LTlkYjQtZjZiZTA0ZTZkZDI3IiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
 
 st.title('COMITEE ARRIVAL')
 st.components.v1.iframe("https://app.powerbi.com/view?r=eyJrIjoiYTA4YWU4MWQtYWJmMS00ZDMyLWJhOTMtMTVjZDY2ODU5YWUxIiwidCI6ImM4ODRjYzQyLTViMjEtNDA3Mi04YjdhLWE2M2QwYTZmNWQ3OSIsImMiOjR9", height=400)
